@@ -106,13 +106,4 @@ ul[role="list"] {
 
     --px-l: 2rem;
   }
-
-  .desktop-only {
-    display: initial;
-  }
-
-  .even-columns {
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
-  }
 }
