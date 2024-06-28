@@ -85,13 +85,9 @@ ul[role="list"] {
   list-style: none;
 }
 
-.desktop-only {
-  display: none;
-}
-
-.even-columns {
-  display: grid;
-  gap: 1rem;
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 @media (width >= 80em) {
@@ -103,7 +99,6 @@ ul[role="list"] {
     --py-base: 1.5rem;
     --py-lg: 2.5rem;
     --py-xl: 5rem;
-
-    --px-l: 2rem;
+    --px-lg: 2rem;
   }
 }

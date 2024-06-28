@@ -21,12 +21,12 @@
 }
 
 .desktop-only {
-  display: initial;
+  display: none;
 }
 
 .even-columns {
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
+  display: grid;
+  gap: 1rem;
 }
 
 .flex {
@@ -52,5 +52,14 @@
 @media (width >= 80em) {
   .container {
     --max-width: 80rem;
+  }
+
+  .desktop-only {
+    display: initial;
+  }
+  
+  .even-columns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
   }
 }
